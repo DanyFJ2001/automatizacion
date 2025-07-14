@@ -17,7 +17,7 @@ time.sleep(5)
 WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//input[@type="password"]')))
 
 password_input = driver.find_element(By.XPATH, '//input[@type="password"]')
-password_input.send_keys("Itsqmet1751058312")
+password_input.send_keys("Daniel456123*****")
 time.sleep(5)
 
 WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//input[@type="submit"]')))
